@@ -1,0 +1,485 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADAPTIVE_TEMPERING_H__	AdaptTempering.h	3;"	d
+ARGOPT_LONGOPT	zcom1.h	1175;"	d
+ARGOPT_MUST	zcom1.h	1172;"	d
+ARGOPT_SET	zcom1.h	1174;"	d
+ARGOPT_SWITCH	zcom1.h	1173;"	d
+AdaptTemperingType	AdaptTempering.h	/^struct AdaptTemperingType{$/;"	s
+AdaptTempering_Close	AdaptTempering.c	/^void AdaptTempering_Close(at_t *at)$/;"	f
+AdaptTempering_CurrentBeta	AdaptTempering.c	/^real AdaptTempering_CurrentBeta(at_t *at)$/;"	f
+AdaptTempering_CurrentPara	AdaptTempering.c	/^real AdaptTempering_CurrentPara(at_t *at)$/;"	f
+AdaptTempering_CurrentSecondPara	AdaptTempering.c	/^real AdaptTempering_CurrentSecondPara(at_t *at)$/;"	f
+AdaptTempering_CurrentT	AdaptTempering.c	/^real AdaptTempering_CurrentT(at_t *at)$/;"	f
+AdaptTempering_DumpToFile	AdaptTempering.c	/^int AdaptTempering_DumpToFile(at_t *at, const char *fname, int arrmax)$/;"	f
+AdaptTempering_ForceChangeBeta	AdaptTempering.c	/^void AdaptTempering_ForceChangeBeta(at_t *at, double newbeta)$/;"	f
+AdaptTempering_ForceScaleFactor	AdaptTempering.c	/^real AdaptTempering_ForceScaleFactor(at_t *at)$/;"	f
+AdaptTempering_Langevin	AdaptTempering.c	/^int AdaptTempering_Langevin(at_t *at, llong_t step, bool bfirst, bool blast, bool btr, bool bflush)$/;"	f
+AdaptTempering_MasterCreate	AdaptTempering.c	/^at_t *AdaptTempering_MasterCreate(const char *fname, bool bCPT, double tmstep, int suffix)$/;"	f
+AdaptTempering_NonMasterCreate	AdaptTempering.c	/^at_t *AdaptTempering_NonMasterCreate()$/;"	f
+AdaptTempering_OpenCfg	AdaptTempering.c	/^static at_t *AdaptTempering_OpenCfg(const char *cfgname, double tmstep, int suffix)$/;"	f	file:
+AdaptTempering_OpenLog	AdaptTempering.c	/^void AdaptTempering_OpenLog(at_t *at)$/;"	f
+AdaptTempering_ReferenceTemperature	AdaptTempering.c	/^real AdaptTempering_ReferenceTemperature(at_t *at)$/;"	f
+AdaptTempering_SyncAllNodes	AdaptTempering.c	/^int AdaptTempering_SyncAllNodes(at_t *at, MPI_Comm comm)$/;"	f
+AdaptTempering_UpdateTemperature	AdaptTempering.c	/^void AdaptTempering_UpdateTemperature(at_t *at)$/;"	f
+BOLTZ	AdaptTempering.h	20;"	d
+Beta2T	AdaptTempering.c	19;"	d	file:
+CFG_CHECKUSE	zcom1.h	1410;"	d
+CFG_VERBOSE	zcom1.h	1411;"	d
+ELIF_PF_	zcom1.h	1113;"	d
+ELIF_PF_	zcom1.h	1131;"	d
+Ea	AdaptTempering.h	/^  double    Ea;       \/\/ total potential energy$/;"	m	struct:AdaptTemperingType
+HAVEREAL	zcom1.h	192;"	d
+HAVEREAL	zcom1.h	197;"	d
+HAVEVAM	zcom1.h	159;"	d
+INLINE	zcom1.h	131;"	d
+INLINE	zcom1.h	133;"	d
+INLINE	zcom1.h	135;"	d
+INLINE	zcom1.h	137;"	d
+INLINE	zcom1.h	139;"	d
+LNADD_DEFINED	zcom1.h	375;"	d
+LN_BIG	zcom1.h	376;"	d
+LN_BIG	zcom1.h	400;"	d
+LOG_APPEND	zcom1.h	1606;"	d
+LOG_FLUSHAFTER	zcom1.h	1604;"	d
+LOG_NOWRITEFILE	zcom1.h	1605;"	d
+LOG_WRITESCREEN	zcom1.h	1603;"	d
+MBQ_CV	AdaptTemperingMultiBin.h	123;"	d
+MBQ_EHAT	AdaptTemperingMultiBin.h	122;"	d
+MBQ_ET	AdaptTemperingMultiBin.h	121;"	d
+MBQ_LNZ	AdaptTemperingMultiBin.h	124;"	d
+MB_CV	AdaptTemperingMultiBin.h	112;"	d
+MB_DAMP	AdaptTemperingMultiBin.h	111;"	d
+MB_EH_ADDAHALF	AdaptTemperingMultiBin.h	117;"	d
+MB_EH_KEEPEDGE	AdaptTemperingMultiBin.h	118;"	d
+MB_EH_NOZEROES	AdaptTemperingMultiBin.h	119;"	d
+MB_LOOSE	AdaptTemperingMultiBin.h	126;"	d
+MB_ONEBIN	AdaptTemperingMultiBin.h	114;"	d
+MB_SBCORR	AdaptTemperingMultiBin.h	116;"	d
+MB_SYMWIN	AdaptTemperingMultiBin.h	113;"	d
+MB_VERBOSE	AdaptTemperingMultiBin.h	115;"	d
+MTFILE	zcom1.h	892;"	d
+MTSEED	zcom1.h	893;"	d
+MT_LMASK	zcom1.h	1008;"	d
+MT_LMASK	zcom1.h	911;"	d
+MT_M	zcom1.h	1006;"	d
+MT_M	zcom1.h	909;"	d
+MT_N	zcom1.h	1005;"	d
+MT_N	zcom1.h	908;"	d
+MT_UMASK	zcom1.h	1007;"	d
+MT_UMASK	zcom1.h	910;"	d
+M_PI	zcom1.h	202;"	d
+OPT_MUST	zcom1.h	1050;"	d
+OPT_SET	zcom1.h	1052;"	d
+OPT_SWITCH	zcom1.h	1051;"	d
+PERRMSG__	zcom1.h	273;"	d
+PERRMSG__	zcom1.h	283;"	d
+PRIu32	zcom1.h	875;"	d
+PRIu32	zcom1.h	877;"	d
+PRIu64	zcom1.h	883;"	d
+PRIu64	zcom1.h	885;"	d
+RESTRICT	zcom1.h	146;"	d
+RESTRICT	zcom1.h	148;"	d
+RESTRICT	zcom1.h	150;"	d
+SSCAT	zcom1.h	/^enum { SSCAT = 1, SSDELETE = 2, SSSHRINK = 3, SSSINGLE = 0x1000 };$/;"	e	enum:__anon3
+SSDELETE	zcom1.h	/^enum { SSCAT = 1, SSDELETE = 2, SSSHRINK = 3, SSSINGLE = 0x1000 };$/;"	e	enum:__anon3
+SSHASHBITS	zcom1.h	529;"	d
+SSHASHSIZ	zcom1.h	531;"	d
+SSMINSIZ	zcom1.h	526;"	d
+SSOVERALLOC	zcom1.h	532;"	d
+SSSHRINK	zcom1.h	/^enum { SSCAT = 1, SSDELETE = 2, SSSHRINK = 3, SSSINGLE = 0x1000 };$/;"	e	enum:__anon3
+SSSINGLE	zcom1.h	/^enum { SSCAT = 1, SSDELETE = 2, SSSHRINK = 3, SSSINGLE = 0x1000 };$/;"	e	enum:__anon3
+STRCLS	zcom1.h	122;"	d
+STRCLS	zcom1.h	124;"	d
+T0	AdaptTempering.h	/^  double    T0;       \/\/ thermostat temperature $/;"	m	struct:AdaptTemperingType
+T2Beta	AdaptTempering.c	20;"	d	file:
+TH_Tref	AdaptTempering.h	/^  double    TH_Tref;$/;"	m	struct:AdaptTemperingType
+ZCOM_ARGOPT	zcom1.h	79;"	d
+ZCOM_ARGOPT__	zcom1.h	1154;"	d
+ZCOM_CFG	AdaptTemperingMultiBin.h	10;"	d
+ZCOM_CFG	AdaptTemperingMultiBin.h	204;"	d
+ZCOM_CFG	zcom1.h	82;"	d
+ZCOM_CFG__	zcom1.h	1390;"	d
+ZCOM_DEF	zcom1.h	107;"	d
+ZCOM_DEF	zcom1.h	61;"	d
+ZCOM_DEF__	zcom1.h	186;"	d
+ZCOM_ENDN	AdaptTemperingMultiBin.c	3228;"	d	file:
+ZCOM_ENDN	AdaptTemperingMultiBin.c	5;"	d	file:
+ZCOM_ENDN	zcom1.h	70;"	d
+ZCOM_ENDN__	zcom1.h	752;"	d
+ZCOM_LOG	AdaptTempering.h	129;"	d
+ZCOM_LOG	AdaptTempering.h	12;"	d
+ZCOM_LOG	zcom1.h	85;"	d
+ZCOM_LOG__	zcom1.h	1590;"	d
+ZCOM_OPT	zcom1.h	101;"	d
+ZCOM_OPT	zcom1.h	76;"	d
+ZCOM_OPT	zcom1.h	97;"	d
+ZCOM_OPT__	zcom1.h	1032;"	d
+ZCOM_PICK	AdaptTempering.c	10;"	d	file:
+ZCOM_PICK	AdaptTempering.c	525;"	d	file:
+ZCOM_PICK	AdaptTempering.h	11;"	d
+ZCOM_PICK	AdaptTempering.h	128;"	d
+ZCOM_PICK	AdaptTemperingMultiBin.c	3227;"	d	file:
+ZCOM_PICK	AdaptTemperingMultiBin.c	4;"	d	file:
+ZCOM_PICK	AdaptTemperingMultiBin.h	203;"	d
+ZCOM_PICK	AdaptTemperingMultiBin.h	9;"	d
+ZCOM_PICK	zcom1.h	56;"	d
+ZCOM_RNG	AdaptTempering.c	11;"	d	file:
+ZCOM_RNG	AdaptTempering.c	526;"	d	file:
+ZCOM_RNG	zcom1.h	73;"	d
+ZCOM_RNG__	zcom1.h	857;"	d
+ZCOM_SS	zcom1.h	105;"	d
+ZCOM_SS	zcom1.h	67;"	d
+ZCOM_SS__	zcom1.h	499;"	d
+ZCOM_UTIL	zcom1.h	106;"	d
+ZCOM_UTIL	zcom1.h	64;"	d
+ZCOM_UTIL	zcom1.h	93;"	d
+ZCOM_UTIL__	zcom1.h	210;"	d
+ZSTR_CASE	zcom1.h	420;"	d
+ZSTR_CAT	zcom1.h	419;"	d
+ZSTR_COPY	zcom1.h	418;"	d
+ZSTR_LOWER	zcom1.h	423;"	d
+ZSTR_UPPER	zcom1.h	422;"	d
+ZSTR_UPPER_	zcom1.h	421;"	d
+ZSTR_XSPACE	zcom1.h	417;"	d
+ZSTR_XSPACEL	zcom1.h	415;"	d
+ZSTR_XSPACER	zcom1.h	416;"	d
+_ADAPTIVE_TEMPERING_H__	AdaptTemperingMultiBin.h	3;"	d
+ampf	AdaptTemperingMultiBin.h	/^  double    *ampf;    \/* currently amplification factor for adaptive averaging *\/$/;"	m	struct:__anon2
+argopt_add	zcom1.h	/^int argopt_add(argopt_t *ao, const char *sflag,$/;"	f
+argopt_addhelp	zcom1.h	1187;"	d
+argopt_addversion	zcom1.h	1188;"	d
+argopt_close	zcom1.h	/^void argopt_close(argopt_t *ao)$/;"	f
+argopt_getarg	zcom1.h	1191;"	d
+argopt_getopt	zcom1.h	1190;"	d
+argopt_help	zcom1.h	/^static void argopt_help(argopt_t *ao)$/;"	f
+argopt_open	zcom1.h	/^argopt_t *argopt_open(unsigned flags)$/;"	f
+argopt_parse	zcom1.h	/^void argopt_parse(argopt_t *ao, int argc, char **argv)$/;"	f
+argopt_regarg	zcom1.h	1179;"	d
+argopt_reghelp	zcom1.h	1181;"	d
+argopt_regopt	zcom1.h	1180;"	d
+argopt_regversion	zcom1.h	1182;"	d
+argopt_set	zcom1.h	1194;"	d
+argopt_t	zcom1.h	/^} argopt_t;$/;"	t	typeref:struct:__anon5
+argopt_version	zcom1.h	/^static void argopt_version(argopt_t *ao)$/;"	f
+at_barr_init	AdaptTempering.c	/^static double *at_barr_init(mb_t *mb)$/;"	f	file:
+at_cfgopen_low	AdaptTempering.c	/^static int at_cfgopen_low(at_t *at, cfgdata_t *cfg, double tmstep)$/;"	f	file:
+at_close_low	AdaptTempering.c	/^static void at_close_low(at_t *at)$/;"	f	file:
+at_doevery	AdaptTempering.c	/^static int at_doevery(llong_t step, int nst, bool bfirst, bool blast)$/;"	f	file:
+at_epsilon_init	AdaptTempering.c	/^static double *at_epsilon_init(mb_t *mb, double Tref, double epsilon0)$/;"	f	file:
+at_kappa_init	AdaptTempering.c	/^static double *at_kappa_init(mb_t *mb, double Tref, double kappa0)$/;"	f	file:
+at_loaddata	AdaptTempering.c	/^static int at_loaddata(at_t *at, bool bCPT)$/;"	f	file:
+at_manifest	AdaptTempering.c	/^static void at_manifest(at_t *at, FILE *fp, int arrmax)$/;"	f	file:
+at_output	AdaptTempering.c	/^static void at_output(at_t *at, llong_t step,$/;"	f	file:
+at_t	AdaptTempering.h	/^typedef struct AdaptTemperingType at_t;$/;"	t	typeref:struct:AdaptTemperingType
+author	zcom1.h	/^  const char *author;$/;"	m	struct:__anon5
+av_binary	AdaptTemperingMultiBin.h	/^  int       av_binary;    \/* use binary format in mbav file *\/$/;"	m	struct:__anon2
+av_file	AdaptTemperingMultiBin.h	/^  char      *av_file;     \/* name of mbav file *\/$/;"	m	struct:__anon2
+av_nstsave	AdaptTemperingMultiBin.h	/^  int       av_nstsave;   \/* interval of writing mbav and ze files *\/$/;"	m	struct:__anon2
+bTH	AdaptTempering.h	/^  bool      bTH;	$/;"	m	struct:AdaptTemperingType
+barr	AdaptTemperingMultiBin.h	/^  double    *barr;    \/* temperature array *\/$/;"	m	struct:__anon2
+bdel	AdaptTemperingMultiBin.h	/^  double    bdel;     \/* bin size of beta *\/$/;"	m	struct:__anon2
+beta	AdaptTempering.h	/^	double    beta;     \/\/ current beta $/;"	m	struct:AdaptTemperingType
+beta	AdaptTemperingMultiBin.h	/^  double    beta;     \/* current value of beta *\/$/;"	m	struct:__anon2
+beta0	AdaptTemperingMultiBin.h	/^	double    beta0;        \/* beta0 in Gaussian distribution *\/$/;"	m	struct:__anon2
+bmax	AdaptTempering.h	/^  double    bmax;     \/\/ maximal beta$/;"	m	struct:AdaptTemperingType
+bmax	AdaptTemperingMultiBin.h	/^  double    bmax;     \/* maximal beta (lowest temperature) *\/$/;"	m	struct:__anon2
+bmin	AdaptTempering.h	/^  double    bmin;     \/\/ minimal beta $/;"	m	struct:AdaptTemperingType
+bmin	AdaptTemperingMultiBin.h	/^  double    bmin;     \/* minimal beta (highest temperature) *\/$/;"	m	struct:__anon2
+bool	AdaptTempering.h	24;"	d
+bool	AdaptTemperingMultiBin.h	14;"	d
+buf	zcom1.h	/^  char *buf;      \/* the entire configuration file *\/$/;"	m	struct:__anon7
+bwdel	AdaptTemperingMultiBin.h	/^  double    bwdel;    \/* delta lnT *\/$/;"	m	struct:__anon2
+bwmod	AdaptTemperingMultiBin.h	/^  int       bwmod;    \/* 0: d(beta) 1: dT\/T  2: d(kT) *\/$/;"	m	struct:__anon2
+c	AdaptTemperingMultiBin.h	/^  double    c;            \/* c in exponential distribution *\/$/;"	m	struct:__anon2
+cfg_add	zcom1.h	/^int cfg_add(cfg_t *cfg, const char *key, const char *fmt, void *ptr, const char *desc)$/;"	f
+cfg_close	zcom1.h	/^void cfg_close(cfg_t *cfg)$/;"	f
+cfg_match	zcom1.h	/^int cfg_match(cfg_t *cfg, unsigned flags)$/;"	f
+cfg_open	zcom1.h	/^cfg_t *cfg_open(const char *fn)$/;"	f
+cfg_set	zcom1.h	1418;"	d
+cfg_t	zcom1.h	/^} cfg_t;$/;"	t	typeref:struct:__anon7
+cfgclose	zcom1.h	1422;"	d
+cfgdata_t	zcom1.h	/^typedef cfg_t cfgdata_t;$/;"	t
+cfgent_t	zcom1.h	/^} cfgent_t; \/* line from cfg file *\/$/;"	t	typeref:struct:__anon6
+cfgget	zcom1.h	/^INLINE int cfgget(cfg_t *cfg, void *var, const char *key, const char *fmt)$/;"	f
+cfgopen	zcom1.h	1421;"	d
+ch	zcom1.h	/^  char ch; \/* single letter option flag *\/$/;"	m	struct:__anon4
+cisalnum	zcom1.h	403;"	d
+cisalpha	zcom1.h	404;"	d
+cisdigit	zcom1.h	405;"	d
+cislower	zcom1.h	409;"	d
+cisprint	zcom1.h	407;"	d
+cisspace	zcom1.h	408;"	d
+cisupper	zcom1.h	410;"	d
+cisxdigit	zcom1.h	406;"	d
+cnt_dbl	AdaptTemperingMultiBin.h	/^  int   cnt_dbl;      \/* number of additional double variables to be written to binary file *\/$/;"	m	struct:__anon2
+cnt_int	AdaptTemperingMultiBin.h	/^  int   cnt_int;      \/* number of additional integer variables to be written to binary file *\/$/;"	m	struct:__anon2
+ctolower	zcom1.h	411;"	d
+ctoupper	zcom1.h	412;"	d
+cvhat	AdaptTemperingMultiBin.h	/^  double    *cvhat;   \/* heat capacity *\/$/;"	m	struct:__anon2
+cvshiftmax	AdaptTemperingMultiBin.h	/^  double    cvshiftmax;       \/* maximal fraction for shift energy fluct. if cv is monotonic, it should be 0.0, for ising model, it can restrain the magnitude *\/$/;"	m	struct:__anon2
+dblcleararr	zcom1.h	/^INLINE void dblcleararr(double *x, int n)$/;"	f
+dblconfine	zcom1.h	/^INLINE double dblconfine(double x, double xmin, double xmax)$/;"	f
+dblhypot	zcom1.h	/^INLINE double dblhypot(double x, double y)$/;"	f
+dblmax	zcom1.h	/^INLINE double dblmax(double x, double y) { return x > y ? x : y; }$/;"	f
+dblmin	zcom1.h	/^INLINE double dblmin(double x, double y) { return x < y ? x : y; }$/;"	f
+dblround	zcom1.h	/^INLINE double dblround(double x, double dx)$/;"	f
+dblsqr	zcom1.h	/^INLINE double dblsqr(double x) { return x * x; }$/;"	f
+dblswap	zcom1.h	308;"	d
+desc	zcom1.h	/^  const char *desc; \/* description *\/$/;"	m	struct:__anon4
+desc	zcom1.h	/^  const char *desc;$/;"	m	struct:__anon5
+die_if	zcom1.h	267;"	d
+dum_	zcom1.h	/^  int dum_[4]; \/* space holder *\/$/;"	m	struct:__anon5
+eh_binary	AdaptTemperingMultiBin.h	/^  int       eh_binary;    \/* binary format for ehist file *\/$/;"	m	struct:__anon2
+eh_bwdel	AdaptTemperingMultiBin.h	/^  double    eh_bwdel;     \/* delta lnT *\/$/;"	m	struct:__anon2
+eh_bwmod	AdaptTemperingMultiBin.h	/^  int       eh_bwmod;     \/* 0: d(beta) 1: dT\/T  2: d(kT) *\/$/;"	m	struct:__anon2
+eh_cnt	AdaptTemperingMultiBin.h	/^  int       eh_cnt;       \/* number of energy bins *\/$/;"	m	struct:__anon2
+eh_del	AdaptTemperingMultiBin.h	/^  double    eh_del;       \/* energy bin size *\/$/;"	m	struct:__anon2
+eh_file	AdaptTemperingMultiBin.h	/^  char      *eh_file;     \/* name of ehist file *\/$/;"	m	struct:__anon2
+eh_his	AdaptTemperingMultiBin.h	/^  double    *eh_his;      \/* energy histogram data *\/$/;"	m	struct:__anon2
+eh_is	AdaptTemperingMultiBin.h	/^  int       *eh_is;       \/* indices for temperature windows (lower) *\/$/;"	m	struct:__anon2
+eh_it	AdaptTemperingMultiBin.h	/^  int       *eh_it;       \/* indices for temperature windows (higher) *\/$/;"	m	struct:__anon2
+eh_max	AdaptTemperingMultiBin.h	/^  double    eh_max;       \/* maximal energy *\/$/;"	m	struct:__anon2
+eh_min	AdaptTemperingMultiBin.h	/^  double    eh_min;       \/* minimal energy *\/$/;"	m	struct:__anon2
+eh_mode	AdaptTemperingMultiBin.h	/^  int   eh_mode;  \/* 0: disable; 1: simple histogram *\/$/;"	m	struct:__anon2
+eh_nstsave	AdaptTemperingMultiBin.h	/^  int       eh_nstsave;   \/* interval of writing histogrm files *\/$/;"	m	struct:__anon2
+eh_recon	AdaptTemperingMultiBin.h	/^  double    *eh_recon;    \/* temporary space for reconstructing histogram *\/$/;"	m	struct:__anon2
+eh_rfile	AdaptTemperingMultiBin.h	/^  char      *eh_rfile;    \/* name of reconstructed energy histogram *\/$/;"	m	struct:__anon2
+eh_skip	AdaptTemperingMultiBin.h	/^  int       eh_skip;      \/* interval of reconstructing energy histograms *\/$/;"	m	struct:__anon2
+ehat	AdaptTemperingMultiBin.h	/^  double    *ehat;    \/* internal energy *\/$/;"	m	struct:__anon2
+endn_flip	zcom1.h	/^INLINE void endn_flip(void *ptr, size_t size, size_t n)$/;"	f
+endn_fread	zcom1.h	/^size_t endn_fread(void *ptr, size_t size, size_t n, FILE *fp, int flip)$/;"	f
+endn_fwrite	zcom1.h	/^size_t endn_fwrite(void *ptr, size_t size, size_t n, FILE *fp, int endn)$/;"	f
+endn_rmatch	zcom1.h	/^int endn_rmatch(void *src, const void *ref, size_t size, FILE *fp)$/;"	f
+endn_rmatchi	zcom1.h	/^int endn_rmatchi(int *src, int iref, FILE *fp)$/;"	f
+endn_system	zcom1.h	/^int endn_system(void)$/;"	f
+ens_exp	AdaptTemperingMultiBin.h	/^  double    ens_exp;  \/* ensemble exponent of beta *\/$/;"	m	struct:__anon2
+ens_w	AdaptTemperingMultiBin.h	/^  double    *ens_w;   \/* array of ensemble weights at bin boundaries *\/$/;"	m	struct:__anon2
+ents	zcom1.h	/^  cfgent_t *ents; \/* entries *\/$/;"	m	struct:__anon7
+epsilon	AdaptTempering.h	/^  double    *kappa, *epsilon;$/;"	m	struct:AdaptTemperingType
+epsilon0	AdaptTempering.h	/^  double    kappa0, epsilon0;$/;"	m	struct:AdaptTemperingType
+et	AdaptTemperingMultiBin.h	/^  double    *et;      \/* bin-averaged internal energy *\/$/;"	m	struct:__anon2
+fatal	zcom1.h	269;"	d
+fexists	zcom1.h	/^INLINE int fexists(const char *fn)$/;"	f
+flags	AdaptTemperingMultiBin.h	/^  unsigned  flags;    \/* combination of flags *\/$/;"	m	struct:__anon2
+flags	zcom1.h	/^  unsigned flags;$/;"	m	struct:__anon4
+flags	zcom1.h	/^  unsigned flags;$/;"	m	struct:__anon5
+flags	zcom1.h	/^  unsigned flags;$/;"	m	struct:__anon8
+fmt	zcom1.h	/^  const char *fmt; \/* sscanf format *\/$/;"	m	struct:__anon4
+fname	zcom1.h	/^  const char *fname;$/;"	m	struct:__anon8
+fp	zcom1.h	/^  FILE *fp;$/;"	m	struct:__anon8
+fracmin	AdaptTemperingMultiBin.h	/^  double    fracmin;          \/* minimal allowable coefficient during left\/right combination *\/$/;"	m	struct:__anon2
+getpairindex	zcom1.h	/^INLINE int getpairindex(int i, int j, int n)$/;"	f
+grand	AdaptTempering.h	/^	double    (*grand)(void);  \/* function pointer to a gaussian random number genrator *\/$/;"	m	struct:AdaptTemperingType
+grand0	zcom1.h	/^double grand0(void)$/;"	f
+has_xsums	AdaptTemperingMultiBin.h	/^  int   has_xsums;$/;"	m	struct:__anon2
+haset	AdaptTemperingMultiBin.h	/^  int       *haset;   \/* current et[i] is reasonably good *\/$/;"	m	struct:__anon2
+hashval	zcom1.h	/^  size_t hashval;$/;"	m	struct:ssheader
+idxcnt	AdaptTemperingMultiBin.h	/^  int   *idxcnt;      \/* index count *\/$/;"	m	struct:__anon2
+imbal	AdaptTemperingMultiBin.h	/^  double    *imbal;   \/* |a+ - a-| \/ (a+ + a-) for left-right combination *\/$/;"	m	struct:__anon2
+index	AdaptTempering.h	/^	int			  index;    \/\/ index of current beta$/;"	m	struct:AdaptTemperingType
+intconfine	zcom1.h	/^INLINE int intconfine(int x, int xmin, int xmax)$/;"	f
+intmax	zcom1.h	/^INLINE int intmax(int x, int y) { return x > y ? x : y; }$/;"	f
+intmin	zcom1.h	/^INLINE int intmin(int x, int y) { return x < y ? x : y; }$/;"	f
+intsqr	zcom1.h	/^INLINE int intsqr(int x) { return x * x; }$/;"	f
+intswap	zcom1.h	304;"	d
+invsigma2	AdaptTemperingMultiBin.h	/^	double    invsigma2;    \/* 1\/sigma^2 in Gaussian distribution *\/$/;"	m	struct:__anon2
+isopt	zcom1.h	/^  int isopt; \/* is option or argument *\/$/;"	m	struct:__anon4
+js	AdaptTemperingMultiBin.h	/^  int       *js;          \/* lower  boundary of asym. beta windows for ehat (asym.) *\/$/;"	m	struct:__anon2
+jset	AdaptTemperingMultiBin.h	/^  int       *jset;        \/* lower  boundary of beta windows for et (usu. sym.), i - jset[i] == jtet[i] - (i+1) *\/$/;"	m	struct:__anon2
+jt	AdaptTemperingMultiBin.h	/^  int       *jt;          \/* higher boundary of asym. beta windows for ehat (asym.) *\/$/;"	m	struct:__anon2
+jtet	AdaptTemperingMultiBin.h	/^  int       *jtet;        \/* higher boundary of beta windows for et (usu. sym.), i - jset[i] == jtet[i] - (i+1) *\/$/;"	m	struct:__anon2
+kappa	AdaptTempering.h	/^  double    *kappa, *epsilon;$/;"	m	struct:AdaptTemperingType
+kappa0	AdaptTempering.h	/^  double    kappa0, epsilon0;$/;"	m	struct:AdaptTemperingType
+key	zcom1.h	/^  char *key, *val;$/;"	m	struct:__anon6
+key	zcom1.h	/^  const char *key; \/* key *\/$/;"	m	struct:__anon4
+lgv_dTmax	AdaptTemperingMultiBin.h	/^  double    lgv_dTmax;        \/* maximal amount of temperature change in a step *\/$/;"	m	struct:__anon2
+lgv_dt	AdaptTemperingMultiBin.h	/^  double    lgv_dt;           \/* time step for the temperature Langevin eq *\/$/;"	m	struct:__anon2
+lgv_rej	AdaptTemperingMultiBin.h	/^  double    lgv_rej;          \/* number of attempts of langevin equation trying to change beta too drastically *\/$/;"	m	struct:__anon2
+lgv_tot	AdaptTemperingMultiBin.h	/^  double    lgv_tot;          \/* total number of attempts of using langevin equation *\/$/;"	m	struct:__anon2
+llong_pfmt	AdaptTempering.h	30;"	d
+llong_pfmt	AdaptTempering.h	33;"	d
+llong_t	AdaptTempering.h	/^typedef long llong_t;$/;"	t
+llong_t	AdaptTempering.h	/^typedef long long  llong_t;$/;"	t
+lnadd	zcom1.h	/^INLINE double lnadd(double a, double b)$/;"	f
+lnaddn	zcom1.h	/^INLINE double lnaddn(double a, double b)$/;"	f
+lndif	zcom1.h	/^INLINE double lndif(double a, double b)$/;"	f
+lnz	AdaptTemperingMultiBin.h	/^  double    *lnz;     \/* logarithm of the partition function *\/$/;"	m	struct:__anon2
+log	AdaptTempering.h	/^  logfile_t *log;         \/\/ log file$/;"	m	struct:AdaptTemperingType
+log_close	zcom1.h	/^INLINE void log_close(logfile_t *log)$/;"	f
+log_hardflush	zcom1.h	/^INLINE int log_hardflush(logfile_t *log)$/;"	f
+log_open	zcom1.h	/^INLINE logfile_t *log_open(const char *fn)$/;"	f
+log_printf	zcom1.h	/^INLINE int log_printf(logfile_t *log, char *fmt, ...)$/;"	f
+log_stock_	zcom1.h	/^STRCLS logfile_t log_stock_[1] = {{ NULL, "TRACE", 0 }};$/;"	v
+logfile_t	zcom1.h	/^} logfile_t;$/;"	t	typeref:struct:__anon8
+lstrip	zcom1.h	427;"	d
+m	AdaptTemperingMultiBin.h	/^  int       m;        \/* maximal number of bins in a window *\/$/;"	m	struct:__anon2
+main	main.c	/^int main()$/;"	f
+mb	AdaptTempering.h	/^  mb_t      *mb;      \/\/ multiple-bin estimator$/;"	m	struct:AdaptTemperingType
+mb_add	AdaptTemperingMultiBin.c	/^void mb_add(mb_t *mb, double e, const double v[], double bet,$/;"	f
+mb_calc_ehat	AdaptTemperingMultiBin.c	/^static void mb_calc_ehat(mb_t *mb)$/;"	f	file:
+mb_calc_et	AdaptTemperingMultiBin.c	/^double mb_calc_et(mb_t *mb, int ib, int flags)$/;"	f
+mb_cfgopen	AdaptTemperingMultiBin.c	/^mb_t *mb_cfgopen(cfgdata_t *cfg, double bmin, double bmax, char suffix)$/;"	f
+mb_cfgopen_low	AdaptTemperingMultiBin.c	/^int mb_cfgopen_low(mb_t *mb, cfgdata_t *cfg, double bmin, double bmax, char suffix)$/;"	f
+mb_check_barr	AdaptTemperingMultiBin.c	/^static int mb_check_barr(mb_t *mb)$/;"	f	file:
+mb_clear	AdaptTemperingMultiBin.c	/^void mb_clear(mb_t *mb)$/;"	f
+mb_close	AdaptTemperingMultiBin.h	128;"	d
+mb_close_low	AdaptTemperingMultiBin.c	/^void mb_close_low(mb_t *mb)$/;"	f
+mb_eh_clear	AdaptTemperingMultiBin.c	/^void mb_eh_clear(mb_t *mb)$/;"	f
+mb_eh_readbin	AdaptTemperingMultiBin.c	/^int mb_eh_readbin(mb_t *mb, const char *fname, int *pver)$/;"	f
+mb_eh_readbin_low	AdaptTemperingMultiBin.c	/^int mb_eh_readbin_low(mb_t *mb, FILE *fp, int ver, int endn)$/;"	f
+mb_eh_recon	AdaptTemperingMultiBin.c	/^int mb_eh_recon(mb_t *mb, const char *fname)$/;"	f
+mb_eh_writebin	AdaptTemperingMultiBin.c	/^int mb_eh_writebin(mb_t *mb, const char *fname, int ver)$/;"	f
+mb_eh_writebin_low	AdaptTemperingMultiBin.c	/^int mb_eh_writebin_low(mb_t *mb, FILE *fp, int ver)$/;"	f
+mb_ensinvwf	AdaptTemperingMultiBin.c	/^double mb_ensinvwf(mb_t *mb, double beta, double *pf, double *pndfdbeta)$/;"	f
+mb_etlr	AdaptTemperingMultiBin.c	/^static double mb_etlr(mb_t *mb, int ib, int flags)$/;"	f	file:
+mb_invgam	AdaptTemperingMultiBin.c	/^static double mb_invgam(mb_t *mb, int ib)$/;"	f	file:
+mb_lrbal	AdaptTemperingMultiBin.c	/^static double mb_lrbal(mb_t *mb, int ib, int js, int jt, int loose,$/;"	f	file:
+mb_lrcol	AdaptTemperingMultiBin.c	/^static void mb_lrcol(mb_t *mb, int i, int js, int jt,$/;"	f	file:
+mb_lrcol2	AdaptTemperingMultiBin.c	/^static void mb_lrcol2(mb_t *mb, int i, int js, int jt,$/;"	f	file:
+mb_manifest	AdaptTemperingMultiBin.c	/^void mb_manifest(mb_t *mb, FILE *fp, int arrmax)$/;"	f
+mb_maxidxcnt	AdaptTemperingMultiBin.c	/^static int mb_maxidxcnt(mb_t *mb)$/;"	f	file:
+mb_maxwinspan	AdaptTemperingMultiBin.c	/^static int mb_maxwinspan(mb_t *mb)$/;"	f	file:
+mb_mkidx	AdaptTemperingMultiBin.c	/^static int mb_mkidx(mb_t *mb)$/;"	f	file:
+mb_mksymwin	AdaptTemperingMultiBin.c	/^static void mb_mksymwin(mb_t *mb, int i, int *js, int *jt)$/;"	f	file:
+mb_mkwin	AdaptTemperingMultiBin.c	/^static int mb_mkwin(mb_t *mb, int bwmod, double bwdel,$/;"	f	file:
+mb_move	AdaptTemperingMultiBin.c	/^double mb_move(mb_t *mb, double erg, double bet, int ib,$/;"	f
+mb_normalize	AdaptTemperingMultiBin.c	/^static void mb_normalize(mb_t *mb, int i)$/;"	f	file:
+mb_qua2s	AdaptTemperingMultiBin.c	/^static char *mb_qua2s(unsigned i)$/;"	f	file:
+mb_readbin	AdaptTemperingMultiBin.c	/^int mb_readbin(mb_t *mb, const char *fname, int *pver)$/;"	f
+mb_readbin_low	AdaptTemperingMultiBin.c	/^int mb_readbin_low(mb_t *mb, FILE *fp, int ver, int endn)$/;"	f
+mb_refresh_et	AdaptTemperingMultiBin.c	/^void mb_refresh_et(mb_t *mb, int reps)$/;"	f
+mb_setqbit	AdaptTemperingMultiBin.c	/^static void mb_setqbit(unsigned *ptr, unsigned mask, int on)$/;"	f	file:
+mb_shkbase	AdaptTemperingMultiBin.c	/^static double mb_shkbase(mb_t *mb)$/;"	f	file:
+mb_t	AdaptTemperingMultiBin.h	/^} mb_t;$/;"	t	typeref:struct:__anon2
+mb_winstot	AdaptTemperingMultiBin.c	/^static void mb_winstot(mb_t *mb)$/;"	f	file:
+mb_write	AdaptTemperingMultiBin.c	/^int mb_write(mb_t *mb)$/;"	f
+mb_writebin	AdaptTemperingMultiBin.c	/^int mb_writebin(mb_t *mb, const char *fname, int ver)$/;"	f
+mb_writebin_low	AdaptTemperingMultiBin.c	/^int mb_writebin_low(mb_t *mb, FILE *fp, int ver)$/;"	f
+mb_wze	AdaptTemperingMultiBin.c	/^int mb_wze(mb_t *mb, const char *fname)$/;"	f
+metroacc	zcom1.h	904;"	d
+metroacc0	zcom1.h	/^INLINE int metroacc0(double r) { r = exp(r); return rnd0() < r; }$/;"	f
+midx	AdaptTemperingMultiBin.h	/^  int   *midx;        \/* index look-up table *\/$/;"	m	struct:__anon2
+mode	AdaptTemperingMultiBin.h	/^	int       mode;         \/* mode 0: disable 1: Gaussian 2:exponential *\/$/;"	m	struct:__anon2
+mpi_comm	AdaptTempering.h	/^  MPI_Comm mpi_comm;$/;"	m	struct:AdaptTemperingType
+mpi_rank	AdaptTempering.h	/^  int mpi_rank, mpi_size;$/;"	m	struct:AdaptTemperingType
+mpi_size	AdaptTempering.h	/^  int mpi_rank, mpi_size;$/;"	m	struct:AdaptTemperingType
+mt_	zcom1.h	/^uint32_t mt_[MT_N]; \/* array for the mt state vector *\/$/;"	v
+mtidx_	zcom1.h	/^STRCLS int mtidx_ = -1; \/* index in mt_, -1: uninitialized *\/$/;"	v
+mtload	zcom1.h	/^int mtload(const char *fname, uint32_t seed)$/;"	f
+mtrand	zcom1.h	/^uint32_t mtrand(void)$/;"	f
+mtsave	zcom1.h	/^int mtsave(const char *fname)$/;"	f
+mvreps	AdaptTempering.h	/^  int       mvreps;    \/\/ number of repeating Langevin eq $/;"	m	struct:AdaptTemperingType
+n	AdaptTemperingMultiBin.h	/^  int       n;        \/* number of temperature bins *\/$/;"	m	struct:__anon2
+nent	zcom1.h	/^  int nent;       \/* number of entries *\/$/;"	m	struct:__anon7
+next	zcom1.h	/^  struct ssheader *next;$/;"	m	struct:ssheader	typeref:struct:ssheader::ssheader
+nopt	zcom1.h	/^  int nopt;       \/* number of user-requested options *\/$/;"	m	struct:__anon7
+nopt	zcom1.h	/^  int nopt;$/;"	m	struct:__anon5
+nstrefresh	AdaptTemperingMultiBin.h	/^  int       nstrefresh;   \/* interval of recalculating et for all temperature *\/$/;"	m	struct:__anon2
+nsttemp	AdaptTempering.h	/^	int       nsttemp;   \/\/ interval of tempering, 0: disable, -1: only when doing neighbor searching$/;"	m	struct:AdaptTemperingType
+nsttrace	AdaptTempering.h	/^  int       nsttrace;  \/\/ interval of writing trace file, 0: disable, -1: only when doing neighbor searching$/;"	m	struct:AdaptTemperingType
+opt_find	zcom1.h	/^INLINE opt_t *opt_find(opt_t *ls, int n, const void *p)$/;"	f
+opt_getval	zcom1.h	/^INLINE int opt_getval(opt_t *o)$/;"	f
+opt_isset	zcom1.h	/^INLINE int opt_isset(opt_t *ls, int n, const void *p, const char *var)$/;"	f
+opt_printptr	zcom1.h	/^INLINE void opt_printptr(opt_t *o)$/;"	f
+opt_set	zcom1.h	/^INLINE void opt_set(opt_t *o, const char *sflag, const char *key,$/;"	f
+opt_t	zcom1.h	/^} opt_t;$/;"	t	typeref:struct:__anon4
+opts	zcom1.h	/^  opt_t *opts;    \/* user-requested options *\/$/;"	m	struct:__anon7
+opts	zcom1.h	/^  opt_t *opts;$/;"	m	struct:__anon5
+order	AdaptTemperingMultiBin.h	/^  int       order;    \/* order, should be 1 *\/$/;"	m	struct:__anon2
+parsepairindex	zcom1.h	/^INLINE int parsepairindex(int id, int n, int *i, int *j)$/;"	f
+perrmsg_	zcom1.h	/^INLINE void perrmsg_(const char *file, int line, const char *why,$/;"	f
+perrmsg__	zcom1.h	/^INLINE void perrmsg__(const char *file, int line, const char *why,$/;"	f
+pfmt	zcom1.h	/^  const char *pfmt; \/* printf format, NULL: to guess *\/$/;"	m	struct:__anon4
+prog	zcom1.h	/^  const char *prog;$/;"	m	struct:__anon5
+ptr	zcom1.h	/^  void *ptr; \/* address to the target variable *\/$/;"	m	struct:__anon4
+qua	AdaptTemperingMultiBin.h	/^  unsigned  *qua;     \/* bits represent whether estimated values are unbiased *\/$/;"	m	struct:__anon2
+rand32	zcom1.h	889;"	d
+real	zcom1.h	198;"	d
+regl	AdaptTemperingMultiBin.h	/^  int       regl;             \/* average within a bin first *\/$/;"	m	struct:__anon2
+rnd0	zcom1.h	890;"	d
+rng_file	AdaptTempering.h	/^  char      *rng_file;    \/\/ random number file name$/;"	m	struct:AdaptTemperingType
+rstrip	zcom1.h	428;"	d
+s	AdaptTemperingMultiBin.h	/^  double    s;$/;"	m	struct:__anon1
+se	AdaptTemperingMultiBin.h	/^  double    se;$/;"	m	struct:__anon1
+se2	AdaptTemperingMultiBin.h	/^  double    se2;$/;"	m	struct:__anon1
+se3	AdaptTemperingMultiBin.h	/^  double    se3;$/;"	m	struct:__anon1
+sflag	zcom1.h	/^  const char *sflag; \/* long string flag *\/$/;"	m	struct:__anon4
+shk_amp	AdaptTemperingMultiBin.h	/^  double    shk_amp;      \/* amp t^(-exp) *\/$/;"	m	struct:__anon2
+shk_base	AdaptTemperingMultiBin.h	/^  double    shk_base;     \/* current generic shrink amplitude *\/$/;"	m	struct:__anon2
+shk_exp	AdaptTemperingMultiBin.h	/^  double    shk_exp;      \/* amp t^(-exp) *\/$/;"	m	struct:__anon2
+shk_gauge	AdaptTemperingMultiBin.h	/^  double    *shk_gauge;   \/* array used of modulation shrinking factors *\/$/;"	m	struct:__anon2
+shk_max	AdaptTemperingMultiBin.h	/^  double    shk_max;      \/* initial and maximal shrink (adjusted) *\/$/;"	m	struct:__anon2
+shk_min	AdaptTemperingMultiBin.h	/^  double    shk_min;      \/* minimal value for enforcing acc. sampling *\/$/;"	m	struct:__anon2
+shk_mode	AdaptTemperingMultiBin.h	/^  int       shk_mode;     \/* 0: const, 1: amp\/t, 2: amp\/t^exp *\/$/;"	m	struct:__anon2
+shk_stop	AdaptTemperingMultiBin.h	/^  int       shk_stop;     \/* stop shrinking after this number of steps *\/$/;"	m	struct:__anon2
+shk_winadj	AdaptTemperingMultiBin.h	/^  int       shk_winadj;   \/* adjust shrink according to temperature window width *\/$/;"	m	struct:__anon2
+size	zcom1.h	/^  size_t size;$/;"	m	struct:ssheader
+sm_addE	AdaptTemperingMultiBin.c	/^static void sm_addE(sm_t *sm, double w, double e, bool bCv)$/;"	f	file:
+sm_cfgopen_low	AdaptTemperingMultiBin.c	/^static int sm_cfgopen_low(sm_t *sm, cfgdata_t *cfg)$/;"	f	file:
+sm_clear	AdaptTemperingMultiBin.c	/^static void sm_clear(sm_t *sm)$/;"	f	file:
+sm_close_low	AdaptTemperingMultiBin.c	/^static void sm_close_low(sm_t *sm)$/;"	f	file:
+sm_manifest	AdaptTemperingMultiBin.c	/^static void sm_manifest(sm_t *sm, FILE *fp, int arrmax)$/;"	f	file:
+sm_mul	AdaptTemperingMultiBin.c	/^static void sm_mul(sm_t *sm, double f)$/;"	f	file:
+sm_readbin_low	AdaptTemperingMultiBin.c	/^static int sm_readbin_low(sm_t *sm, FILE *fp, int ver, int endn)$/;"	f	file:
+sm_t	AdaptTemperingMultiBin.h	/^} sm_t;$/;"	t	typeref:struct:__anon1
+sm_writebin_low	AdaptTemperingMultiBin.c	/^static int sm_writebin_low(sm_t *sm, FILE *fp, int ver)$/;"	f	file:
+ssbase_	zcom1.h	/^static struct ssheader ssbase_[SSHASHSIZ] = {{ 0u, 0u, NULL }};$/;"	v	typeref:struct:ssheader
+sscalcsize_	zcom1.h	533;"	d
+sscat	zcom1.h	511;"	d
+sscpy	zcom1.h	510;"	d
+sscpycatx	zcom1.h	/^char *sscpycatx(char **ps, const char *t, size_t minsize, unsigned flags)$/;"	f
+ssdel	zcom1.h	512;"	d
+ssdelall	zcom1.h	515;"	d
+ssdelete	zcom1.h	513;"	d
+ssdup	zcom1.h	509;"	d
+ssfgetall	zcom1.h	518;"	d
+ssfgets	zcom1.h	517;"	d
+ssfgetx	zcom1.h	/^char *ssfgetx(char **ps, size_t *pn, int delim, FILE *fp)$/;"	f
+sshashval_	zcom1.h	/^static size_t sshashval_(const char *p)$/;"	f
+ssheader	zcom1.h	/^struct ssheader {$/;"	s
+sslistadd_	zcom1.h	/^static struct ssheader *sslistadd_(struct ssheader *h)$/;"	f
+sslistfind_	zcom1.h	/^static struct ssheader *sslistfind_(const char *s)$/;"	f
+sslistremove_	zcom1.h	/^static void sslistremove_(struct ssheader *hp, int f)$/;"	f
+ssmanage	zcom1.h	/^int ssmanage(char *s, unsigned flags)$/;"	f
+ssmanage_low_	zcom1.h	/^static void ssmanage_low_(struct ssheader *hp, unsigned opt)$/;"	f
+ssnew	zcom1.h	508;"	d
+ssresize_	zcom1.h	/^static char *ssresize_(struct ssheader **php, size_t n, unsigned flags)$/;"	f
+ssshrink	zcom1.h	514;"	d
+ssshrinkall	zcom1.h	516;"	d
+strcat_sf	zcom1.h	452;"	d
+strcmpnc	zcom1.h	476;"	d
+strcnv	zcom1.h	/^INLINE char *strcnv(char *s, const char *t, size_t len, unsigned flags)$/;"	f
+strcpy2l	zcom1.h	447;"	d
+strcpy2u	zcom1.h	446;"	d
+strcpy_sf	zcom1.h	448;"	d
+strip	zcom1.h	426;"	d
+stripx	zcom1.h	/^INLINE char *stripx(char *s, unsigned flags)$/;"	f
+strncmpnc	zcom1.h	/^INLINE int strncmpnc(const char *s, const char *t, int n)$/;"	f
+substr	zcom1.h	449;"	d
+suffix	AdaptTempering.h	/^	char      suffix;       \/\/ file suffix$/;"	m	struct:AdaptTemperingType
+sums	AdaptTemperingMultiBin.h	/^  sm_t  *sums;    \/* normal data *\/$/;"	m	struct:__anon2
+tm	zcom1.h	/^  const struct tm *tm; \/* compilation time *\/$/;"	m	struct:__anon5	typeref:struct:__anon5::tm
+tmstep	AdaptTempering.h	/^  double    tmstep;    \/\/ MD integration step$/;"	m	struct:AdaptTemperingType
+totvis	AdaptTemperingMultiBin.h	/^  double    totvis;       \/* total number of visits, number of tempering *\/$/;"	m	struct:__anon2
+trace_file	AdaptTempering.h	/^  char      *trace_file;  \/\/ trace file name$/;"	m	struct:AdaptTemperingType
+uint32_t	zcom1.h	/^  typedef unsigned uint32_t;$/;"	t
+uint64_t	zcom1.h	/^  typedef unsigned __int64 uint64_t;$/;"	t
+used	zcom1.h	/^  int used;$/;"	m	struct:__anon6
+val	zcom1.h	/^  char *key, *val;$/;"	m	struct:__anon6
+val	zcom1.h	/^  const char *val; \/* raw string from command line *\/$/;"	m	struct:__anon4
+version	zcom1.h	/^  int version;$/;"	m	struct:__anon5
+vis	AdaptTemperingMultiBin.h	/^  double    *vis;         \/* number of visits *\/$/;"	m	struct:__anon2
+winstot	AdaptTemperingMultiBin.h	/^  double    *winstot;     \/* total of sum.s over a multiple-bin temperature window *\/$/;"	m	struct:__anon2
+wtrace	zcom1.h	1663;"	d
+wze_reps	AdaptTemperingMultiBin.h	/^  int       wze_reps;     \/* number of iterations before writing ze file *\/$/;"	m	struct:__anon2
+xfopen	zcom1.h	287;"	d
+xnew	zcom1.h	220;"	d
+xrenew	zcom1.h	230;"	d
+xsums	AdaptTemperingMultiBin.h	/^  sm_t  *xsums;       \/* multiple-bin damping data *\/$/;"	m	struct:__anon2
+xtpswap	zcom1.h	300;"	d
+ze_file	AdaptTemperingMultiBin.h	/^  char      *ze_file;     \/* name of ze file *\/$/;"	m	struct:__anon2
