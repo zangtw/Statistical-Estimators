@@ -13,8 +13,6 @@ int main()
 	FILE *Efluc = fopen("../test_set/Efluc.txt", "r");
 
 	at = AdaptTempering_MasterCreate("at.cfg", 0, 1, 0);
-  at->mb->flags &= ~MB_CV;
-  at->mb->flags &= ~MB_DAMP;
 
 	/* force change the at->mb->sums */
 	for(index = 0; index <= n; index++) {
